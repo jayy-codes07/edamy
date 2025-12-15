@@ -51,8 +51,8 @@ const Navbar = () => {
           <div className="sm:flex items-center sm:gap-2 max-sm:text-xs ">
             {user && (
               <>
-                              <button onClick={()=>{navigate('/educator')}}>{isEducator?'Educator Dashboard':'Become Educator' }</button>|{" "}
-                <Link to="/MyEnrollment"> My Enrollment</Link>
+               <button onClick={()=>{navigate('/educator')}}>{isEducator?'Educator Dashboard':'Become Educator' }</button>|{" "} {" "}
+                <Link to="/my-enrollment"> My Enrollment</Link>
               </>
             )}
           </div>
